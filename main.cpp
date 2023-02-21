@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
+//Tom Ho
+//113558817
+//CS3203
 
 //computes the sum of an array and returns
 int sum(std::vector<int> arr){
@@ -33,11 +35,13 @@ std::vector<int> reverse(std::vector<int> arr){
 int main(){
     std::vector<int> nums;
     int x;
+    //enter numbers for array
     std::cout<< "Enter a numbers into the array: "<<std::endl;
     while(std::cin >> x){
         nums.push_back(x);
     }
 
+    //print out functions
     std::cout<< "Sum of array: "<<std::endl;
     std::cout<< sum(nums) <<std::endl;
     std::cout<< "Product of array: "<<std::endl;

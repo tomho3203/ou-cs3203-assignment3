@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 //computes the sum of an array and returns
 int sum(std::vector<int> arr){
@@ -19,6 +20,16 @@ int product(std::vector<int> arr){
     return product;
 }
 
+//reverse array order
+std::vector<int> reverse(std::vector<int> arr){
+    int temp;
+    for(int i =0; i<arr.size()/2;i++){
+        temp = arr[i];
+        arr[i]=arr[arr.size()-i-1];
+        arr[arr.size()-i-1]=temp;
+    }
+    return arr;
+}
 int main(){
     std::vector<int> nums;
     int x;

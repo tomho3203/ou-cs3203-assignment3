@@ -42,5 +42,10 @@ int main(){
     std::cout<< sum(nums) <<std::endl;
     std::cout<< "Product of array: "<<std::endl;
     std::cout<< product(nums) <<std::endl;
+    std::cout<< "Reverse of array:  "<<std::endl;
+    std::vector<int> r = reverse(nums);
+    for(int i =0; i < r.size(); i++ ){
+        std::cout << r[i] << std::endl;
+    }
     return 0;
 }

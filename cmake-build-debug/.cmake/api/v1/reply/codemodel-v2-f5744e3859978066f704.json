@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/tomho/Desktop/OU/CS3203/Assignment3/cmake-build-debug",
-		"source" : "/Users/tomho/Desktop/OU/CS3203/Assignment3"
+		"build" : "/Users/tomho/Desktop/OU/CS3203/Assignment3/ou-cs3203-assignment3/cmake-build-debug",
+		"source" : "/Users/tomho/Desktop/OU/CS3203/Assignment3/ou-cs3203-assignment3"
 	},
 	"version" : 
 	{

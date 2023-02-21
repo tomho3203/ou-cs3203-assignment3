@@ -3,6 +3,7 @@
 //Tom Ho
 //113558817
 //CS3203
+//2-21
 
 //computes the sum of an array and returns
 int sum(std::vector<int> arr){
